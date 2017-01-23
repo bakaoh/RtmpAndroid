@@ -124,7 +124,7 @@ JNIEXPORT jint JNI_OnLoad(JavaVM *vm, void *reserved) {
         return JNI_ERR;
     }
 
-    jclass clz = (*env)->FindClass(env, "me/baka/rtmp/RtmpClient");
+    jclass clz = (*env)->FindClass(env, "com/github/bakaoh/rtmp/RtmpClient");
     if (clz == NULL) {
         LOGE("FindClass error");
         return JNI_ERR;

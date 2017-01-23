@@ -1,4 +1,4 @@
-package me.baka.rtmp;
+package com.github.bakaoh.rtmp;
 
 public class RtmpClient {
 

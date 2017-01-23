@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'rtmp-android'
+
+    publishedGroupId = 'com.github.bakaoh'
+    libraryName = 'RtmpAndroid'
+    artifact = 'rtmp-android'
+
+    libraryDescription = 'Simple rtmp client jni for android'
+
+    siteUrl = 'https://github.com/bakaoh/RtmpAndroid'
+    gitUrl = 'https://github.com/bakaoh/RtmpAndroid.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'bakaoh'
+    developerName = 'Tata Tata'
+    developerEmail = 'tatattai@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -34,3 +58,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
+
+apply from: 'installv1.gradle'
+apply from: 'bintrayv1.gradle'

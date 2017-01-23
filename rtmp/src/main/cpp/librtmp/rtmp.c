@@ -3399,7 +3399,8 @@ RTMP_Close(RTMP *r)
 	  r->m_clientID.av_val = NULL;
 	  r->m_clientID.av_len = 0;
 	}
-      RTMPSockBuf_Close(&r->m_sb);
+      // TODO: inspect
+      // RTMPSockBuf_Close(&r->m_sb);
     }
 
   r->m_stream_id = -1;
