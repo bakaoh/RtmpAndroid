@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RtmpAndroid.iml" filepath="$PROJECT_DIR$/RtmpAndroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rtmp/rtmp.iml" filepath="$PROJECT_DIR$/rtmp/rtmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rtmp-android/rtmp-android.iml" filepath="$PROJECT_DIR$/rtmp-android/rtmp-android.iml" />
     </modules>
   </component>
 </project>

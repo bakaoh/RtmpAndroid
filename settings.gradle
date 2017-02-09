@@ -1,1 +1,1 @@
-include ':rtmp'
+include ':rtmp-android'
